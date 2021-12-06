@@ -1,6 +1,6 @@
 # waldo.vision
-> This is a temporary placeholder site for WALDO during production
+> This is a temporary placeholder site for WALDO during development
 
-#### Made by asyo ❤️
 
-> ##### 💖 Special thanks to Diff3RentBreed 
+#### Made with love by @asyo ❤️
+> ##### 💖 Special thanks to @Diff3RentBreed 
