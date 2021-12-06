@@ -48,7 +48,7 @@ export const App = () => {
                 Github
               </Button>
               <Button
-                href="docs.waldo.vision"
+                href="https://docs.waldo.vision"
                 class="bg-fuchsia-700 hover:bg-fuchsia-600 hover:-translate-y-1 transition duration-150"
               >
                 Documentation
