@@ -10,9 +10,9 @@ export const Background = () => {
     const gridItems = document.querySelectorAll(".grid-background > div");
 
     gridItems.forEach((item:any) => {
-      const delay = getRandomInt(0, 5);
+      const delay = getRandomInt(9, 10);
 
-      const duration = getRandomInt(3, 6);
+      const duration = getRandomInt(4, 9);
 
       item.style.animationDelay = `${delay}s`;
       item.style.animationDuration = `${duration}s`;
@@ -25,7 +25,7 @@ export const Background = () => {
     }
   }, [])
   return (
-  <div class="absolute grid-background inset-0 grid gap-2 transform -skew-y-6 scale-125 grid-rows-6 grid-cols-12">
+  <div class={`absolute grid-background inset-0 grid gap-2 transform -skew-y-6 scale-125 grid-rows-6 grid-cols-12 blur-sm`}>
     <div class="row-span-3 bg-gray-800 rounded animate-pulse"></div>
     <div class="row-span-2 bg-gray-800 rounded animate-pulse"></div>
     <div class="row-span-2 col-span-2 bg-gray-800 rounded animate-pulse"></div>
