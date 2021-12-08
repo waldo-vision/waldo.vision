@@ -7,10 +7,21 @@ export const App = () => {
     <div>
       <div class="relative py-20 px-4 min-h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
         <Background/>
+        <div class="absolute top-10 right-10 animate-fadeIn">
+          <a href={"https://www.youtube.com/watch?v=GOI9EkLsUm0"} target="_blank">
+            <div class="flex items-center gap-2 px-5 py-3 rounded-2xl bg-gray-700 shadow-md hover:bg-gray-600 transition-colors duration-100">
+              <span class="text-gray-200 text-center text-lg md:text-lg capitalize">
+                introductory video
+              </span>
+              <svg class="fill-current text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg>
+            </div>
+          </a>
+        </div>
         <div class="relative flex flex-col items-center gap-2">
-          <p class="text-7xl tracking-wide font-bold text-white">WALDO</p>
-          <h2 class="text-gray-300 text-center text-2xl md:text-xl flex flex-col items-center">
-            <span class="font-bold ">U N D E R &nbsp; C O N S T R U C T I O N</span>
+          <p class="text-7xl tracking-wide font-bold mt-5 text-white">WALDO</p>
+          <h2 class="text-gray-300 text-center text-xl md:text-xl flex flex-col items-center">
+            <span class="font-bold">U N D E R &nbsp; C O N S T R U C T I O N</span>
+
             <div class="flex items-center gap-5 mt-8">
             <Button
               class=""
