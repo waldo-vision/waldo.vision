@@ -7,13 +7,23 @@ module.exports = {
   theme: {
     extend: {
         animation: {
-          fadeIn: "fadeIn 0.6s ease-in-out forwards"
+          fadeIn: 'fadeIn 0.5s',
+          fadeInx: "fadeInx 1s ease-out forwards"
+
         },
         keyframes: {
-          fadeIn: {
-            "0%": { opacity: 0, transform: "translateX(20px)" },
-            "100%": { opacity: 1 }
-          }
+            fadeIn: {
+                '0%': {
+                    opacity: 0
+                },
+                '100%': {
+                    opacity: 1
+                }
+            },
+            fadeInx: {
+              "0%": { opacity: 0, transform: "translateX(20px)" },
+              "100%": { opacity: 1 }
+            }
         },
       colors: {
         gray: colors.coolGray,
