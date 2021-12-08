@@ -1,20 +1,6 @@
 import { Button } from "./components/button";
 import { Background } from "./components/background";
-import { toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
 
-toast.configure();
-    export const notify = () => {
-      toast.warn(`Make sure your profile is public!`,{
-        position: "top-right",
-        delay: 10000,
-        autoClose: 4000,
-        hideProgressBar: true,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-      });
-    };
 export const App = () => {
   return (
 
